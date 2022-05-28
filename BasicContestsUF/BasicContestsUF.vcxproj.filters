@@ -21,5 +21,8 @@
     <ClCompile Include="Argv-ArgcExample.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LecturaSTDIN.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

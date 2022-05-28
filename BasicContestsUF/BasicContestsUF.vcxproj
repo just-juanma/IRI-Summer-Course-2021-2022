@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Argv-ArgcExample.c" />
+    <ClCompile Include="LecturaSTDIN.c" />
     <ClCompile Include="OpcionesPrintf.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
