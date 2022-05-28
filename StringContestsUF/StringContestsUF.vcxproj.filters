@@ -21,5 +21,8 @@
     <ClCompile Include="PartiendoCadenas.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IntegradorDeCadenas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IntegradorDeCadenas.c" />
     <ClCompile Include="PartiendoCadenas.c" />
     <ClCompile Include="StringBusqueda.c" />
   </ItemGroup>
