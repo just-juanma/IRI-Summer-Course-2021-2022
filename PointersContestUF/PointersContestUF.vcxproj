@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LibrosEnLaBiblioteca.c" />
     <ClCompile Include="MatricesYPunteros.c" />
     <ClCompile Include="PasajePorValorYPorReferencia.c" />
     <ClCompile Include="PunterosBasicos.c" />

@@ -24,5 +24,8 @@
     <ClCompile Include="MatricesYPunteros.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LibrosEnLaBiblioteca.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
