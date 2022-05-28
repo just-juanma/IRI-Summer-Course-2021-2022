@@ -18,5 +18,8 @@
     <ClCompile Include="PunterosBasicos.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PasajePorValorYPorReferencia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
