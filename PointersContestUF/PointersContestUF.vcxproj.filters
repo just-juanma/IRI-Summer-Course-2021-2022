@@ -21,5 +21,8 @@
     <ClCompile Include="PasajePorValorYPorReferencia.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MatricesYPunteros.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
