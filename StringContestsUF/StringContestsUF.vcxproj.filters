@@ -18,5 +18,8 @@
     <ClCompile Include="StringBusqueda.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PartiendoCadenas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
