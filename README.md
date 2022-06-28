@@ -7,6 +7,6 @@
 
 * [String Contests](https://www.hackerrank.com/contests/string-contest-uf/challenges)
 
-You can find in English and Spanish the problem of each exercise, and the resolutions are in English only.
+In the folder of each exercise, you will find the statement in English and Spanish. The solution of each problem is only in English.
 
->My resolutions can be found under the name "juanmanuelgonza1" on every leaderboard (Spanish resolutions).
+If you want Spanish solutions, you can found me under the name "juanmanuelgonza1" on every Hackerrank leaderboard.
