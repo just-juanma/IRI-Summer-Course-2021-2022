@@ -1,0 +1,42 @@
+There are several ways to read from stdin. Read carefully the definition of some of the functions that are used to do so
+
+gets (https://www.cplusplus.com/reference/cstdio/gets/?kw=gets)
+scanf (https://www.cplusplus.com/reference/cstdio/scanf/?kw=scanf)
+getchar (https://www.cplusplus.com/reference/cstdio/getchar/)
+
+To read SENTENCES... you have to use gets... oooor you can use scanf, but with a trick.
+
+Input Format
+In the following problem you will receive the following lines to read * a word of less than 50 characters * an integer * a sentence * another sentence * a date, in the format DD/MM/YYYYY or DD-MM-MMMM * a sentence, number, letter, float (separated by comma, no spaces).
+
+Restrictions
+The word on the first line is less than 50 characters Sentences are less than 200 characters Read at least one sentence with scanf
+
+Output Format
+Print everything read, in the same order line by line.
+floats, print to 2 decimal places
+
+Input Format 0
+	juancito
+	12 44.4
+	to the pipetua how nice it is
+	how we are learning
+	15/08/1984
+	la panza del gato no se rasca,1984,C,99.9
+
+Output Format 0
+	juancito
+	12
+	44.40
+	to the pipetua how nice it is
+	how we are learning
+	15
+	08
+	1984
+	the cat's belly doesn't scratch
+	1984
+	C
+	99.90
+	
+Explanation 0
+juancito 12 44.40 to the pipetua how nice it is how we are learning 15/08/1984 the cat's belly doesn't scratch 1984 C 99.99
