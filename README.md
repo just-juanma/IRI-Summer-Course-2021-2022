@@ -1,5 +1,5 @@
 # Summer-Course-IRI-2021-2022-spanish-work
-## Links to view the exercises (in spanish) can be found at the following links:
+## Links to view the exercises (in spanish):
 
 * [Basic Contests](https://www.hackerrank.com/contests/basics-contest-uf/challenges)
 
