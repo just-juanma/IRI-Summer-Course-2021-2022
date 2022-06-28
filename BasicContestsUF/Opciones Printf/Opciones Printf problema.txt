@@ -1,0 +1,50 @@
+Lea atentamente la definicion de la funcion printf (https://www.cplusplus.com/reference/cstdio/printf/). utilice los conocimientos adquiridos para pasar esta prueba
+
+Se esta implementando un software de saldos de una compania. Se tiene en una base de datos la informacion de diferentes clientes, donde viven y cual es su saldo
+
+Implemente la funcion void SuperImpresora, la cual recibe
+1. Informacion:
+	- char* Calle
+	- int numero
+	- int piso
+	- char letra
+	- float saldo
+2. Parametros de impresion
+	- int numero_width
+	- int piso_width
+	- int llenar_con_cero ( 0 no 1 si)
+	
+Se debera Imprimir
+	- Calle con alineacion izquierda y con un minimo de 20 caracteres. A continuacion un espacio
+	- el numero, utilizando numero_width para determinar el ancho, y si se llena o no con ceros. luego un espacio
+	- el piso, utilizando piso_width para determinar el ancho, y si se llena o no con ceros. luego un espacio
+	- la letra, y luego un espacio
+	- el saldo, con 15 digitos en la parte entera y una cantidad de decimales igual a numero_width, seguido de un \n
+
+Formato de Entrada
+	2
+	Pringles 908 2 C 554.333 4 2 0
+	Humahuaca 333 3 A 3000.126548 5 3 1
+	
+Restricciones
+	los numeros ingresados entran perfectamente en un int la palabra tendra menos de 20 caracteres
+	
+Formato de Salida
+	Pringles                 908     2      C              554.3330
+	Humahuaca               00333   003     A            3000.12646
+	
+Muestra de Entrada 0
+	1
+	Rivadavia 3400 11 E 580.33 5 4 1
+	
+Muestra de Salida 0
+	Rivadavia            03400 0011 E       580.33002
+	
+Muestra de Entrada 1
+	2
+	Pringles 908 2 C 554.333 4 2 0
+	Humahuaca 333 3 A 3000.126548 5 3 1
+	
+Muestra de Salida 1
+	Pringles              908  2 C        554.3330
+	Humahuaca            00333 003 A      3000.12646

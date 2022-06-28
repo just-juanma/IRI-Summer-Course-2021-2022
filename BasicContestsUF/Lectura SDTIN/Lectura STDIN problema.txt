@@ -1,0 +1,42 @@
+Hay varias formas de leer del stdin Lea atentamente la definicion de algunas de las funciones que se utiliza para ello
+
+gets (https://www.cplusplus.com/reference/cstdio/gets/?kw=gets)
+scanf (https://www.cplusplus.com/reference/cstdio/scanf/?kw=scanf)
+getchar (https://www.cplusplus.com/reference/cstdio/getchar/)
+
+Para leer ORACIONES... hay que usar gets.. oooo se puede utilizar scanf, pero con un truco.
+
+Formato de Entrada
+En el siguiente problema recibira las siguientes lineas que tendra que leer * Palabra de menos de 50 caracteres * numero entero espacio numero flotante * una oracion * otra oracion * Una fecha, en el formato DD/MM/AAA o DD-MM-MMMM * oracion, numero, letra, flotante. (separados por coma, sin espacios)
+
+Restricciones
+La palabra de la primer linea tiene menos de 50 caracteres Las oraciones tienen menos de 200 caracteres Leer al menos una oracion con scanf
+
+Formato de Salida
+Imprima todo lo leido, en el mismo orden linea por linea
+los flotantes, imprimirlos con 2 decimales
+
+Formato de Entrada 0
+	juancito
+	12 44.4
+	a la pipetua que lindo esta
+	como estamos aprendiendo
+	15/08/1984
+	la panza del gato no se rasca,1984,C,99.9
+
+Formato de Salida 0
+	juancito
+	12
+	44.40
+	a la pipetua que lindo esta
+	como estamos aprendiendo
+	15
+	08
+	1984
+	la panza del gato no se rasca
+	1984
+	C
+	99.90
+	
+Explicacion 0
+juancito 12 44.40 a la pipetua que lindo esta como estamos aprendiendo 15/08/1984 la panza del gato no se rasca 1984 C 99.99
