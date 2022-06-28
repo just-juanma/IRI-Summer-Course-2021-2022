@@ -1,0 +1,38 @@
+Let's practice using argv and argc. As in hackerrank we can't get these parameters directly. So the main main is implemented to read from the keyboard simulating that it was passed by parameter. and passes it to our function MainConArgumentos (int argc, char* argc).*.
+
+Validate the arguments
+1. Verify that 3 arguments (extra to the program call) have been received. If not, print ERROR 1 and exit.
+2. The arguments that would arrive are NUMBER SYMBOL NUMBER. Verify that what arrives follows this format. If not, return
+	1. ERROR 2 if the first is not a number.
+	2. ERROR 3 if the second is not a symbol (+-*/%)
+	3. ERROR 4 if the third is not a number.
+3. Once the arguments have been verified, perform the corresponding operation, and print the result with 2 decimal places of precision.
+	The main tests use integers (positive or negative), you can use the atoi function to convert a string to a number. You can also try with the sscanf function. In these cases remember to convert during the operation to have a floating result.
+	As an Extra Exercise, the last (additional) tests validate that the numbers entered can be floats. Again, you can use existing libraries such as atof and sscanf.
+	
+Input Format
+	miprogram.exe X SYMBOL Y
+	
+Restrictions
+	1. miprogram.exe will always be there.
+	2. Symbol can be + - * / %.
+	3. Numbers are less than 1000
+	4. The . is used as decimal separator for non-integer numbers.
+	
+Output Format
+	Z.ff
+	ERROR N
+
+Input Sample 0
+	4
+	miprograma.exe 125 + 125
+	
+Output Sample 0
+	250.00
+	
+Input Sample 1
+	4
+	miprogram.exe 14.5 - 7.2
+	
+Output Sample 1
+	7.30
