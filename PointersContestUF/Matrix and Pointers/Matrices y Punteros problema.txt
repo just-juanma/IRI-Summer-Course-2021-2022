@@ -1,0 +1,108 @@
+Lea antentamente sobre Matrices Dinámicas o Punteros dobles (https://www.techiedelight.com/dynamically-allocate-memory-for-2d-array/). Utilice los conocimientos adquiridos para pasar esta prueba.
+Desarrolle 3 algoritmos que permita obtener la diagonal de una matriz como la suma de su diagional, y la suma en dos vectores dinámicos de cada fila y cada columna, ej: VecFila[n] = { SumaF1, ...., SumaFn } y VecColumna[n] = { SumaC1, ...., SumaCn }.
+Estos algoritmos se ejecutaran según el modo que reciba la función ProcesadoMatrices.
+Implemente las siguientes funciones
+	int* obtenerDiagonal:
+		1. Información
+		- int n
+		- int m
+		- int** matriz
+	int* sumaFilasyColumnas:
+		1. Información
+		- int n
+		- int m
+		- int** matriz
+		- int** refSumaColumnas
+	void ProcesadoMatrices:
+		1. Información
+		- int modo
+		- int n
+		- int m
+		- int** matriz
+		2. Parametros de Impresión
+		- int* mi_diagonal
+		- int* sumaDiagonal
+		- int* sumaFila
+		- int* sumaColumna
+
+Formato de Entrada
+0
+3
+3
+52 32 89
+20 91 37
+65 3  48
+
+0
+4
+3
+52 32 89
+20 91 37
+65 3  48
+32 45 27
+
+1
+3
+4
+52 32 89 32
+20 91 37 20
+65 3  48 65
+
+2
+3
+4
+20 30 40 10
+23 34 41 12
+33 44 11 22
+
+Restricciones
+- Solo se tiene 3 modos de procesamiento de la matriz.
+- Evite hacer código extra, quizá puede reciclar una función ⚠️.
+- Recuerde liberar toda la memoria que solicitó.
+BORRAR ESTOS PARAMETROS, se crean automaticamente
+- int* result_count
+- int refSumColumnas_rows
+- int refSumColumnas_columns
+
+Formato de Salida
+Mi Diagional: 52 91 48
+No se puede obtener la diagonal de una matriz NO cuadrada    
+No se puede obtener la suma de diagonal de una NO matriz cuadrada
+Suma De Cada Fila: 100 110 110
+Suma De Cada Columna: 76 108 92 44
+
+Muestra de Entrada 0
+0
+3
+3
+52 32 89
+20 91 37
+65 3 48
+
+Muestra de Salida 0
+Mi Diagonal: 52 91 48
+
+Muestra de Entrada 1
+1
+3
+3
+52 32 89
+20 91 37
+65 3 48
+
+Muestra de Salida 1
+Suma Diagonal: 191
+
+Muestra de Entrada 2
+1
+6
+3
+54 45 33
+98 9 96
+31 50 98
+89 72 50
+81 39 52
+46 12 80
+
+Muestra de Salida 2
+No se puede obtener la suma de diagonal de una NO matriz cuadrada

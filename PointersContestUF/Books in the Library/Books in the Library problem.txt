@@ -1,0 +1,67 @@
+Snow Howler is the librarian at the HuskyLand City Central Library. He should handle requests submitted on the following forms:
+1 x y c: Inserts a book with pages "y" and color "c" at the end of shelf "x".
+2 x y : Prints the number of pages and the color of the book "y" on the shelf "x".
+3 x : Prints the number of books on shelf "x".
+4 x : Prints the total number of pages of all the books on shelf "x".
+5 x c : Prints the total number of pages of the books with the specified color "c" on the shelf "x".
+
+Input format
+The first line contains an int total_shelves, the total number of shelves in the library The second line contains an int representing the total number of orders total_orders Each subsequent N line (from total_orders total), are the queries in the format mentioned above.
+It is possible that there may be insertions in any order, the numbers may come in a random order!!!
+
+Constraints
+1 <= total_orders <= 10^5 1 <= total_shelves <= 10^5 0 <= x <= total_shelves Both shelves and books are numbered starting at 0
+
+Output Format
+Imprimir los datos en lineas separadas sin ningun espacio extra para los casos 2, 3, 4 y 5, en el caso 1 solo debe modificar la lista
+
+Sample Input 0
+2
+15
+1 1 283 green
+1 0 492 black
+1 1 1148 yellow
+1 0 2298 black
+1 0 1749 red
+1 1 275 red
+5 1 red
+5 1 red
+5 0 green
+2 1 1
+4 0
+3 0
+4 1
+3 1
+2 0 2
+
+Sample Output 0
+275
+275
+0
+1148 amarillo
+4539
+3
+1706
+3
+1749 rojo
+
+Explanation 0
+There are 2 shelves and 15 requests
+
+Sample Input 1
+5
+8
+1 0 15 red
+1 0 15 red
+1 0 20 yellow
+1 2 78 red
+2 2 0
+3 0
+4 0
+5 0 red
+
+Sample Output 1
+78 red
+2
+50
+30
