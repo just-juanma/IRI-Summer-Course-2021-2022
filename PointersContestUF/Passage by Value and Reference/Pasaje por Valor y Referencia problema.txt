@@ -1,0 +1,69 @@
+Lea atentamente la toería de pasaje de puntero por Valor y Referencia (https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/). Utilice los conocimientos adquiridos para pasar esta prueba.
+Desarrolle un programa que recibe un vector de integer con valores positivos y negativos, arme el algoritmo que separa en dos vectores dinámicos los negativos y positivos.
+Implemente las siguientes funciones
+	int sumarNumeros
+		1. Información
+		- int tamNumeros
+		- int* numeros
+	void separandoNumeros
+		1. Información
+		- int tamNumeros
+		- int* numeros
+		- int* tamPares
+		- int** pares
+		- int* tamImpares
+		- int** impares
+	void ProcesandoDatos
+		1. Información
+		- int tamNumeros
+		- int* numeros
+		2. Parametros de Impresión
+		- int* tamPares
+		- int** pares
+		- int sumaPares
+		- int* tamImpares
+		- int** impares
+		- int sumaImpares
+Imprima la suma total de los numeros pares e impares, y sus respectivos vectores.
+
+Formato de Entrada
+6
+19 11 -19 20 18 -9
+
+Restricciones 
+AVISO
+
+- Elimine int Pares_columns y int Impares_columns
+- Convierta
+int Pares_rows, int Impares_rows
+a
+int* Pares_rows, int* Impares_rows // Retorno por derecha
+
+int** Pares y int** Impares // No son matrices, si no entiende porque, releea punteros nuevamente
+- No se olvide de liberar toda la memoria solicitada.
+
+Formato de Salida
+Suma Pares: 38
+Vector Pares: 20 18
+Suma Impares: 2
+Vector Impares: 19 11 -19 -9
+
+Muestra de Entrada 0
+15
+-19 8 -5 11 12 10 9 19 18 -6 -14 -17 18 -13 11
+
+Muestra de Salida 0
+Suma Pares: 46
+Vector Pares: 8 12 10 18 -6 -14 18
+Suma Impares: -4
+Vector Impares: -19 -5 11 9 19 -17 -13 11
+
+Muestra de Entrada 1
+7
+-2 -14 -17 1 -17 -10 12
+
+Muestra de Salida 1
+Suma Pares: -14
+Vector Pares: -2 -14 -10 12
+Suma Impares: -33
+Vector Impares: -17 1 -17

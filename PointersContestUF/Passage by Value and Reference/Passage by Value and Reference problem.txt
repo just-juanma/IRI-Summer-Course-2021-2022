@@ -1,0 +1,69 @@
+Carefully read the Value and Reference pointer passing theory (https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/). Use the acquired knowledge to pass this test.
+Develop a program that receives an integer vector with positive and negative values, assemble the algorithm that separates in two dynamic vectors the negative and positive ones.
+Implement the following functions
+	int sumNumbers
+		Information
+		- int tamNumbers
+		- int* numbers
+	void separatingNumbers
+		Information
+		- int sizeNumbers
+		- int* numbers
+		- int* sizePairs
+		- int** Pairs
+		- int* sizeOdd
+		- int** odd
+	void ProcessingData
+		Information
+		- int sizeNumbers
+		- int* numbers
+		2. Print Parameters
+		- int* sizePairs
+		- int** pairs
+		- int sumPairs
+		- int* sizeOdd
+		- int** odd
+		- int sumOdd
+Print the total sum of odd and even numbers, and their respective vectors.
+
+Input Format
+6
+19 11 -19 20 18 -9
+
+Constraints 
+NOTICE
+
+- Remove int Even_columns and int Odd_columns
+- Convert
+int Even_rows, int Odd_rows
+to
+int* Even_rows, int* Odd_rows // Return right-hand return
+
+int** Even and int** Odd // They are not arrays, if you don't understand why, reread pointers again.
+- Don't forget to free all the requested memory.
+
+Output Format
+Sum Pairs: 38
+Vector Pairs: 20 18
+Odd Sum: 2
+Odd Vector: 19 11 -19 -9
+
+Sample Input 0
+15
+-19 8 -5 11 12 10 9 19 18 -6 -14 -17 18 -13 11
+
+Sample Output 0
+Pairs Sum: 46
+Pairs Vector: 8 12 10 18 -6 -14 18
+Odd Sum: -4
+Odd Vector: -19 -5 11 9 19 -17 -13 11
+
+Sample Input 1
+7
+-2 -14 -17 1 -17 -10 12
+
+Sample Output 1
+Pairs Sum: -14
+Pairs Vector: -2 -14 -10 12
+Odd Sum: -33
+Odd Vector: -17 1 -17

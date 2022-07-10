@@ -1,0 +1,51 @@
+Lea atentamente la definicion de Punteros (https://www.cplusplus.com/doc/tutorial/pointers/) y repase algunas funciones de Math.h (https://www.cplusplus.com/reference/cmath/). Utilice los conocimientos adquiridos para pasar esta prueba.
+Desarrollar un software que recibe un tamaño de array y un array con longitudes, con estos datos clasfique la figura (Circulo, Cuadrado/Rectangulo o Triangulo Rectangulo), y reporte el Area y Perimetro.
+Implemente las siguientes funciones void RecorriendoArray, int Perimetro, int Area, char* TipoFigura, la cuales reciben.
+	1. Información
+	- int ladosCantidad
+	- int contadorLongitudes
+	- int* longitudes
+	2. Parametros de Impresión
+	- char* salidaFigura
+	- int salidaArea
+	- int salidaPerimetro
+Imprima el tipo de figura, su área y su perimetro
+
+Formato de Entrada
+1
+3
+
+2
+5 5
+
+Restricciones
+- Evite pasarse del tamaño del vector dado.
+- Imprima el Area con dos decimales.
+- El máximo tamaño del vector longitudes es de N = 3.
+
+Formato de Salida
+Circulo
+Area [28]
+Perimetro [18]
+
+Muestra de Entrada 0 
+3
+2 4 4
+
+Muestra de Salida 0
+Triangulo Rectangulo
+Area [8]
+Perimetro [10]
+
+Muestra de Entrada 1
+2
+5 5
+
+Muestra de Salida 1
+Cuadrado
+Area [25]
+Perimetro [20]
+
+Cuadrado
+Area [25]
+Perimetro [20]

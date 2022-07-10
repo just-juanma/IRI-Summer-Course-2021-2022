@@ -1,0 +1,51 @@
+Read carefully the definition of Pointers (https://www.cplusplus.com/doc/tutorial/pointers/) and review some Math.h functions (https://www.cplusplus.com/reference/cmath/). Use the acquired knowledge to pass this test.
+Develop a software that receives an array size and an array with lengths, with this data classify the shape (Circle, Square/Rectangle or Triangle/Rectangle), and report the Area and Perimeter.
+Implement the following functions void TraversingArray, int Perimeter, int Area, char* TypeFigure, which receive.
+	1. Information
+	- int sidesQuantity
+	- int lengthCount
+	- int* lengths
+	2. Print Parameters
+	- char* outFigure
+	- int outArea
+	- int outPerimeter
+Print the type of figure, its area and perimeter.
+
+Input Format
+1
+3
+
+2
+5 5
+
+Constraints
+- Avoid exceeding the given vector size.
+- Print the Area to two decimal places.
+- The maximum size of the vector length is N = 3.
+
+Output Format
+Circle
+Area [28]
+Perimeter [18]
+
+Square
+Area [25]
+Perimeter [20]
+
+Sample Input 0
+3
+2 4 4
+
+Sample Output 0
+Triangle Rectangle
+Area [8]
+Perimeter [10]
+
+Sample Input 1
+2
+5 5
+
+Sample Output 1
+Square
+Area [25]
+Perimeter [20]
