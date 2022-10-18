@@ -40,17 +40,7 @@ void MainWithArgs(int argc, char** argv) {
 
 int main()
 {
-    int argc;
-
-    scanf_s("%d", &argc);
-
-    for (int i = 0; i < argc; i++) {
-        char* argv_item = *(argv_temp + i);
-
-        *(argv + i) = argv_item;
-    }
-
-    MainWithArgs(argc, argc, argv);
-
+    // no testing main
+    
     return 0;
 }

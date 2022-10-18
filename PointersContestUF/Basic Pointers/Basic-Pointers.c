@@ -28,10 +28,10 @@ char* typeFigure(int lengthCount, int* lengths) {
 }
 
 void traversingArray(int lengthCount, int* lengths) {
-    int area = 0, perimeter = 0;
+    int _area = 0, _perimeter = 0;
     char* figure = typeFigure(lengthCount, lengths);
-    area = area(lengthCount, lengths);
-    perimetro = perimeter(lengthCount, lengths);
+    _area = area(lengthCount, lengths);
+    _perimeter = perimeter(lengthCount, lengths);
     printf("%s\nArea [%d]\nPerimeter [%d]", figure, area, perimeter);
     return;
 }

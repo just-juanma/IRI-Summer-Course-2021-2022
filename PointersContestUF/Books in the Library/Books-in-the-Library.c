@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+
 typedef struct {
     int x;
     int y;
     int pages;
     char color[20];
 }sBook;
+
 void inputCleaning() { while (getchar() != '\n'); }
 int main() {
     int total_shelves = 0, total_orders = 0, repeated = 0, i, j = 0, k = 0, nBooks = 0, column = 0, nBooksRow = 0, sumBooksRow = 0, sumBooksRowColor = 0, contRepeatedFirstParameter = 0;
@@ -54,20 +56,20 @@ int main() {
                 if (rows[i] == books[j].x)
                     column++;
             books[i].y = column - 1;
-            books[i].paginas = thirdParameter[i];
+            books[i].pages = thirdParameter[i];
             strcpy(books[i].color, colors[i]);
             column = 0;
             break;
         case 2:
             for (j = 0; j < nBooks; j++)
                 if (rows[i] == books[j].x && thirdParameter[i] == books[j].y)
-                    printf("%d %s", books[j].paginas, books[j].color);
+                    printf("%d %s", books[j].pages, books[j].color);
             break;
         case 3:
             for (j = 0; j < nBooks; j++)
                 if (rows[i] == books[j].x) {
                     for (k = j + 1; k < columns[j]; k++) {
-                        if (strcmp(books[j].color, books[k].color) == 0 && books[j].paginas == books[k].paginas)
+                        if (strcmp(books[j].color, books[k].color) == 0 && books[j].pages == books[k].pages)
                             nBooksRow--;
                     }
                     nBooksRow++;
@@ -78,14 +80,14 @@ int main() {
         case 4:
             for (j = 0; j < nBooks; j++)
                 if (rows[i] == books[j].x)
-                    sumBooksRow += books[j].paginas;
+                    sumBooksRow += books[j].pages;
             printf("%d", sumBooksRow);
             sumBooksRow = 0;
             break;
         case 5:
             for (j = 0; j < nBooks; j++)
                 if (rows[i] == books[j].x && strcmp(colors[i], books[j].color) == 0)
-                    sumBooksRowColor += books[j].paginas;
+                    sumBooksRowColor += books[j].pages;
             printf("%d", sumBooksRowColor);
             sumBooksRowColor = 0;
             break;
